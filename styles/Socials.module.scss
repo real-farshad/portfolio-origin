@@ -1,0 +1,86 @@
+@import "breakpoints";
+
+.socials {
+    position: relative;
+    margin-top: 120px;
+
+    @include min-width-xl {
+        margin-top: 140px;
+    }
+}
+
+.socials__titles {
+    position: relative;
+    z-index: 10;
+
+    @include min-width-md {
+        text-align: right;
+    }
+}
+
+.socials__primary-title {
+    margin-bottom: 5px;
+
+    @include min-width-md {
+        margin-bottom: 0;
+    }
+}
+
+.socials__image-container {
+    max-width: 485px;
+    margin: auto;
+    margin-top: 10px;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+
+    @include min-width-md {
+        max-width: 300px;
+        position: absolute;
+        bottom: -45px;
+        left: -30px;
+    }
+
+    @include min-width-lg {
+        max-width: 350px;
+        bottom: -50px;
+    }
+
+    @include min-width-xl {
+        max-width: 485px;
+        bottom: -70px;
+        left: -20px;
+    }
+
+    img {
+        max-width: 110%;
+        transform: rotate(30deg) scaleX(-1);
+
+        @include min-width-md {
+            max-width: 100%;
+        }
+    }
+}
+
+.socials__info {
+    @include min-width-md {
+        text-align: right;
+        margin-top: 20px;
+        padding-left: 250px;
+    }
+
+    @include min-width-xl {
+        max-width: 500px;
+        margin-top: 30px;
+        padding-left: 0;
+        margin-left: auto;
+    }
+}
+
+.socials__links {
+    margin-top: 20px;
+
+    @include min-width-xl {
+        margin-top: 30px;
+    }
+}

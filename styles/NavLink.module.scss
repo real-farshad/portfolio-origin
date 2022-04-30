@@ -1,0 +1,17 @@
+@import "breakpoints";
+
+.nav-link {
+    font-size: 18px;
+    font-weight: var(--regular-font-size);
+    color: var(--primary-text-color);
+    opacity: var(--primary-text-opacity);
+    text-decoration: none;
+
+    @include min-width-md {
+        font-size: 16px;
+    }
+
+    @include min-width-lg {
+        font-size: 18px;
+    }
+}

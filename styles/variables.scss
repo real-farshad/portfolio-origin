@@ -1,0 +1,43 @@
+@import "breakpoints";
+
+:root {
+    /* Font sizes */
+    --regular-font-size: 18px;
+    --primary-title-font-size: 34px;
+    --secondary-title-font-size: 24px;
+
+    /* Font weights */
+    --regular-font-weight: 400;
+    --medium-font-weight: 500;
+    --semi-bold-font-weight: 600;
+    --bold-font-weight: 700;
+
+    /* Colors */
+    --black: rgb(0, 0, 0);
+    --white: rgb(255, 255, 255);
+    --background-color: rgb(172, 130, 80);
+
+    /* Text color */
+    --primary-text-color: var(--white);
+
+    /* Paddings */
+    --content-space: 24px;
+
+    /* Opacities */
+    --primary-text-opacity: 0.87;
+
+    @include min-width-md {
+        --primary-title-font-size: 44px;
+        --secondary-title-font-size: 22px;
+    }
+
+    @include min-width-lg {
+        --regular-font-size: 20px;
+        --primary-title-font-size: 54px;
+        --secondary-title-font-size: 30px;
+    }
+
+    @include min-width-lg {
+        --content-space: 100px;
+    }
+}

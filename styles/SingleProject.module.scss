@@ -1,0 +1,66 @@
+@import "breakpoints";
+
+.single-project__primary-info {
+    @include min-width-xl {
+        display: flex;
+        gap: 50px;
+    }
+}
+
+.single-project__date {
+    @include min-width-xl {
+        margin-top: 11px;
+    }
+}
+
+.single-project__project-title {
+    @include min-width-xl {
+        max-width: 450px;
+    }
+}
+
+.single-project__image-container {
+    width: 100%;
+    margin-top: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    opacity: 0.87;
+
+    @include min-width-xl {
+        margin-top: 42px;
+    }
+
+    img {
+        display: block;
+        max-width: 100%;
+    }
+}
+
+.single-project__secondary-info {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 20px;
+
+    @include min-width-xl {
+        flex-direction: row;
+        margin-top: 30px;
+    }
+}
+
+.single-project__links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    @include min-width-xl {
+        display: block;
+        flex-shrink: 0;
+        width: 250px;
+        margin-top: 0;
+    }
+}
+
+.single-project__description {
+    margin-top: 20px;
+}

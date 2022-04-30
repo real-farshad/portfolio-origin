@@ -1,0 +1,79 @@
+@import "breakpoints";
+
+.home__background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.home__blur-container {
+    @include min-width-md {
+        padding: 30px;
+    }
+
+    @include min-width-lg {
+        padding: 50px 60px;
+    }
+
+    @include min-width-xl {
+        max-width: 1366px;
+        padding: 100px;
+        padding-bottom: 80px;
+        margin: auto;
+    }
+}
+
+.home__content-container {
+    position: relative;
+    padding: var(--content-space);
+    padding-bottom: 30px;
+
+    @include min-width-md {
+        padding: 30px;
+        padding-bottom: 50px;
+    }
+
+    @include min-width-lg {
+        padding: 30px 50px;
+        padding-bottom: 100px;
+    }
+
+    @include min-width-xl {
+        padding: 50px var(--content-space);
+        padding-bottom: 150px;
+    }
+}
+
+.home__copyright {
+    margin-top: 100px;
+
+    @include min-width-md {
+        display: none;
+    }
+}
+
+.home__footer {
+    display: none;
+
+    @include min-width-md {
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+    @include min-width-lg {
+        margin-top: 15px;
+    }
+
+    @include min-width-xl {
+        margin-top: 20px;
+    }
+}
+
+.home__footer-text {
+    padding: 5px 30px;
+    padding-bottom: 7px;
+}

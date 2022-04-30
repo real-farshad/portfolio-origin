@@ -1,0 +1,14 @@
+@import "breakpoints";
+
+.project-title {
+    font-size: 28px;
+    font-weight: var(--medium-font-weight);
+    line-height: 1.15;
+    color: var(--primary-text-color);
+    opacity: var(--primary-text-opacity);
+
+    @include min-width-xl {
+        font-size: 40px;
+        line-height: 1.25;
+    }
+}

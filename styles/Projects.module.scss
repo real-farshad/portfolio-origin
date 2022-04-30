@@ -1,0 +1,43 @@
+@import "breakpoints";
+
+.projects {
+    margin-top: 100px;
+
+    @include min-width-md {
+        margin-top: 125px;
+    }
+}
+
+.projects__section-titles {
+    @include min-width-md {
+        text-align: right;
+    }
+}
+
+.projects__primary-title {
+    margin-bottom: 5px;
+
+    @include min-width-md {
+        margin-bottom: 0;
+    }
+}
+
+.projects__cards {
+    margin-top: 30px;
+
+    @include min-width-lg {
+        margin-top: 60px;
+    }
+}
+
+.projects__single-project {
+    margin-top: 80px;
+
+    @include min-width-xl {
+        margin-top: 130px;
+    }
+
+    &:first-child {
+        margin-top: 0;
+    }
+}

@@ -1,0 +1,12 @@
+@import "breakpoints";
+
+.logo {
+    font-size: 20px;
+    font-weight: var(--semi-bold-font-weight);
+    color: var(--primary-text-color);
+    opacity: var(--primary-text-opacity);
+
+    @include min-width-lg {
+        font-size: 24px;
+    }
+}

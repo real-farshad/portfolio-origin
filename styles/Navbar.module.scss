@@ -1,0 +1,133 @@
+@import "breakpoints";
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    @include min-width-md {
+        align-items: baseline;
+    }
+}
+
+.navbar__menu-btn {
+    font-size: 18px;
+
+    @include min-width-md {
+        display: none;
+    }
+}
+
+.navbar__menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 100;
+
+    &--show {
+        display: block;
+        animation: menu-in 0.5s forwards;
+
+        @keyframes menu-in {
+            from {
+                opacity: 0;
+                transform: scale(0.8);
+            }
+
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+    }
+
+    &--close {
+        animation: menu-out 0.5s forwards;
+
+        @keyframes menu-out {
+            from {
+                opacity: 1;
+                transform: scale(1);
+            }
+
+            to {
+                opacity: 0;
+                transform: scale(0.8);
+            }
+        }
+    }
+
+    @include min-width-md {
+        position: static;
+        width: auto;
+        height: auto;
+        display: block;
+        animation: unset;
+    }
+}
+
+.navbar__menu-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--background-color);
+    opacity: 0.87;
+
+    @include min-width-md {
+        display: none;
+    }
+}
+
+.navbar__menu-content-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+
+    @include min-width-md {
+        position: static;
+        width: auto;
+        height: auto;
+        display: block;
+    }
+}
+
+.navbar__close-btn {
+    font-size: 18px;
+    padding: var(--content-space);
+    padding-bottom: 40px;
+
+    @include min-width-md {
+        display: none;
+    }
+}
+
+.navbar__navigation {
+    padding: var(--content-space);
+    text-align: center;
+
+    @include min-width-md {
+        padding: 0;
+        display: flex;
+        gap: 60px;
+        text-align: unset;
+    }
+
+    @include min-width-lg {
+        gap: 80px;
+    }
+}
+
+.navbar__nav-link {
+    margin-bottom: 40px;
+
+    @include min-width-md {
+        margin-bottom: 0;
+    }
+}
