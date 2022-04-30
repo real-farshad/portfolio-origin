@@ -6,7 +6,7 @@ import st from "../styles/Socials.module.scss";
 
 export default function Socials() {
     return (
-        <div className={st["socials"]}>
+        <div className={st["socials"]} id="socials">
             <div className={st["socials__titles"]}>
                 <div className={st["socials__primary-title"]}>
                     <PrimaryTitle>MY SOCIALS</PrimaryTitle>

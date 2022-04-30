@@ -5,7 +5,7 @@ import st from "../styles/Contact.module.scss";
 
 export default function Contact() {
     return (
-        <div className={st["contact"]}>
+        <div className={st["contact"]} id="contact">
             <div className={st["contact__titles"]}>
                 <div className={st["contact__primary-title"]}>
                     <PrimaryTitle>CONTACT ME</PrimaryTitle>

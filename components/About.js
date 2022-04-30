@@ -5,7 +5,7 @@ import st from "../styles/About.module.scss";
 
 export default function About() {
     return (
-        <div className={st["about"]}>
+        <div className={st["about"]} id="about">
             <div className={st["about__titles"]}>
                 <div className={st["about__primary-title"]}>
                     <PrimaryTitle>ABOUT ME</PrimaryTitle>

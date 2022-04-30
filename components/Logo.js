@@ -1,5 +1,9 @@
 import st from "../styles/Logo.module.scss";
 
 export default function Logo() {
-    return <div className={st["logo"]}>M0hammadr3za.</div>;
+    return (
+        <a className={st["logo"]} href="/">
+            M0hammadr3za.
+        </a>
+    );
 }
