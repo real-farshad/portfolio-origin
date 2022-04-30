@@ -6,7 +6,7 @@ import getProjects from "../utils/getProjects";
 import Head from "next/head";
 import Intro from "../components/Intro";
 import Navbar from "../components/Navbar";
-import Projects from "../components/projects";
+import Projects from "../components/Projects";
 import RegularText from "../components/RegularText";
 import Socials from "../components/Socials";
 import st from "../styles/Home.module.scss";
