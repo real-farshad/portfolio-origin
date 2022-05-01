@@ -9,7 +9,7 @@ export default function SingleProject({ data }) {
         title,
         imageUrl,
         liveDemo,
-        githubReop,
+        githubRepo,
         frontTechStack,
         backTechStack,
         description,
@@ -34,7 +34,7 @@ export default function SingleProject({ data }) {
             <div className={st["single-project__secondary-info"]}>
                 <div className={st["single-project__links"]}>
                     <div>
-                        <RegularLink to={githubReop}>
+                        <RegularLink to={githubRepo}>
                             Github Repository
                         </RegularLink>
                     </div>
