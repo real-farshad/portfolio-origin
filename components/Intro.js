@@ -17,7 +17,7 @@ export default function Intro() {
                     <PrimaryTitle>{`I'M A SOFTWARE ENGINEER`}</PrimaryTitle>
                 </div>
 
-                <SecondaryTitle>And This Is My Protfolio.</SecondaryTitle>
+                <SecondaryTitle>And This Is My Portfolio.</SecondaryTitle>
             </div>
 
             <div className={st["intro__image-container"]}>
@@ -46,7 +46,7 @@ export default function Intro() {
                     <span className={st["intro__separator"]}>|</span>
                 </RegularText>
                 <RegularText>
-                    Whant A Short And Official Version?{" "}
+                    Want A Short And Official Version?{" "}
                     <RegularLink to="/resume.pdf">Download Resume</RegularLink>
                 </RegularText>
             </div>

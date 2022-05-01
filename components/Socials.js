@@ -37,7 +37,7 @@ export default function Socials() {
                         </RegularLink>
                     </div>
                     <div>
-                        <RegularLink to="Linkedin.Com/M0hammadr3za.Dev">
+                        <RegularLink to="Github.Com/M0hammadr3za">
                             Linkedin.Com/M0hammadr3za.Dev
                         </RegularLink>
                     </div>

@@ -5,7 +5,7 @@ const data = {
     liveDemo: "https://full-stack-query-application.herokuapp.com",
     githubRepo: "https://github.com/m0hammadr3za/full-stack-query-application",
     frontTechStack:
-        "Front-End Was Built Using Typescript, React, Redux, Sass And Jest",
+        "Front-End Was Built Using Typescript, React, Redux, Sass And Jest.",
     backTechStack:
         "Back-End Was Built Using Typescript, Node.Js, Express, Joi And Mongodb Nodejs Driver.",
     description:

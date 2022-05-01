@@ -60,7 +60,7 @@ export default function About() {
                         I Currently Live In Kermanshah, Iran.
                     </RegularText>
                     <RegularText>
-                        And I Can Speak Both Persian And English.
+                        And I Can Speak Both English And Persian.
                     </RegularText>
                 </div>
             </div>
