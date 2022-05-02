@@ -32,14 +32,20 @@ export default function Socials() {
 
                 <div className={st["socials__links"]}>
                     <div>
-                        <RegularLink to="Github.Com/M0hammadr3za">
-                            Github.Com/M0hammadr3za
-                        </RegularLink>
+                        <RegularText>
+                            My Github:{" "}
+                            <RegularLink to="https://github.com/m0hammadr3za">
+                                m0hammadr3za
+                            </RegularLink>
+                        </RegularText>
                     </div>
                     <div>
-                        <RegularLink to="Github.Com/M0hammadr3za">
-                            Linkedin.Com/M0hammadr3za.Dev
-                        </RegularLink>
+                        <RegularText>
+                            My LinkedIn:{" "}
+                            <RegularLink to="https://www.linkedin.com/in/mohammad-reza-gholami-4063a5239/">
+                                Mohammad Reza Gholami
+                            </RegularLink>
+                        </RegularText>
                     </div>
                 </div>
             </div>
