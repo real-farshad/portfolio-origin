@@ -27,9 +27,9 @@ export default function Contact() {
                 <RegularText>My Phone Number: (+98) 09027553035</RegularText>
                 <RegularText>
                     My Email Address:{" "}
-                    <span className={st["contact__email"]}>
+                    <a href="mailto:m0hammadr3za.dev@gmail.com">
                         M0hammadr3za.Dev@Gmail.Com
-                    </span>
+                    </a>
                 </RegularText>
             </div>
         </div>
