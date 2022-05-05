@@ -2,7 +2,7 @@ const data = {
     date: "March 2022",
     title: "Full-Stack Wallpapers Web Application",
     imageUrl: "/first-project.jpg",
-    liveDemo: "/",
+    liveDemo: "/https://full-stack-wallpaper-app.herokuapp.com",
     githubRepo: "https://github.com/m0hammadr3za/full-stack-wallpaper-app",
     frontTechStack:
         "Front-End Was Built Using Typescript, React React Router, Context, Sass.",
