@@ -1,16 +1,33 @@
-# Nextjs Portfolio Web App
+# Portfolio V1.0
 
-Live demo: [m0hammadr3za.vercel.app](https://m0hammadr3za.vercel.app/)<br/>
-Tech stack: javascript, nextjs, sass
+[Live Demo](https://m0hammadr3za.vercel.app) • This is my single page, next.js, portfolio web application. Here you can read about my experience, my skills, and some other information about me, as a software engineer, you might be interested in. You can also check out my single page, pdf, [Resume](https://m0hammadr3za.vercel.app/resume.pdf).
 
-My single page, responsive, portfolio website.<br/>
-I'm A 23 Years Old Full-Stack Web Developer. I Love Programming, Solving Problems And Learning New Things. I've Been Coding For 3 Years And Worked On Many Projects Utilizing Modern Technologies.
+## Technologies
 
-Some Of My Programming Skills Are:<br/>
-Html, Css, Sass, Javascript, Typescript, Python And C<br/>
-React, Redux, React Router, Next.Js, Node.Js, Express, Mongodb Node.Js Driver, Mongoose, Passport, Joi, Jest, React Testing Library, Supertest, Express Sessions<br/>
-Vscode, Git, Github
+- Javascript
+- Next.js
+- Sass
 
-I Also Really Like: Reading, Learning, UX And UI Design, Graphic Design, Art, Writing, Etc.<br/>
-I Currently Live In Kermanshah, Iran.<br/>
-And I Can Speak Both Persian And English.
+## Installation
+
+1. Clone repository
+2. Install dependencies: `npm install`
+3. Start development: `npm run dev`
+
+## Development Commands
+
+- `npm run dev`: Start development server
+- `npm run build`: Create production build
+- `npm start`: Launch production server
+
+Access via:
+
+http://localhost:3000
+
+## Screenshots
+
+![Feature 1 Demo](public/screenshots/1.jpg)
+
+![Feature 1 Demo](public/screenshots/2.jpg)
+
+![Feature 1 Demo](public/screenshots/3.jpg)
