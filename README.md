@@ -1,6 +1,8 @@
 # Portfolio V1.0
 
-[Live Demo](https://m0hammadr3za.vercel.app) • This is my single page, next.js, portfolio web application. Here you can read about my experience, my skills, and some other information about me, as a software engineer, you might be interested in. You can also check out my single page, pdf, [Resume](https://m0hammadr3za.vercel.app/resume.pdf).
+Live demo: [m0hammadr3za.vercel.app](https://m0hammadr3za.vercel.app)
+
+This is my single page, next.js, portfolio web application. Here you can read about my experience, my skills, and some other information about me, as a software engineer, you might be interested in. You can also check out my single page, pdf, [Resume](https://m0hammadr3za.vercel.app/resume.pdf).
 
 ## Technologies
 
