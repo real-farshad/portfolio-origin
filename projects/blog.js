@@ -2,8 +2,8 @@ const data = {
   date: "July 2021",
   title: "Full-Stack Blog Web Application",
   imageUrl: "/third-project.jpg",
-  liveDemo: "https://blog-web-application-4lgr.onrender.com",
-  githubRepo: "https://github.com/m0hammadr3za/blog-web-application",
+  liveDemo: "https://blog-web-application-three.vercel.app",
+  githubRepo: "https://github.com/real-farshad/blog-web-application",
   frontTechStack: "Front-End Was Built Using React, React Router, Sass.",
   backTechStack: "Back-End Was Built Using Node.Js, Express And Mongoose.",
   description:

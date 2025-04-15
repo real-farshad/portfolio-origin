@@ -2,8 +2,8 @@ const data = {
   date: "October 2021",
   title: "Full-Stack Query Web Application",
   imageUrl: "/second-project.jpg",
-  liveDemo: "https://queries-web-application.onrender.com",
-  githubRepo: "https://github.com/m0hammadr3za/queries-web-application",
+  liveDemo: "https://queries-web-application.vercel.app",
+  githubRepo: "https://github.com/real-farshad/queries-web-application",
   frontTechStack:
     "Front-End Was Built Using Typescript, React, Redux, Sass And Jest.",
   backTechStack:

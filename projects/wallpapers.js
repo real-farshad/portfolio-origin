@@ -2,8 +2,8 @@ const data = {
   date: "March 2022",
   title: "Full-Stack Wallpapers Web Application",
   imageUrl: "/first-project.jpg",
-  liveDemo: "https://wallpapers-web-application.onrender.com",
-  githubRepo: "https://github.com/m0hammadr3za/wallpapers-web-application",
+  liveDemo: "https://wallpapers-web-application.vercel.app",
+  githubRepo: "https://github.com/real-farshad/wallpapers-web-application",
   frontTechStack:
     "Front-End Was Built Using Typescript, React React Router, Context, Sass.",
   backTechStack:
